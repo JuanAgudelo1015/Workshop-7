@@ -1,4 +1,6 @@
 /**POO 
+ *   // Atributos ES ALGO PROPIO DEL OBJETO
+ *   // METODOS BASICAMENTE SON LAS CARACTERISTICAS DE ALGO OH DE UN OBJETO
  * Clases - Modelo ah seguir
  * - Objetos- Son instancias de las Clases
  * 
