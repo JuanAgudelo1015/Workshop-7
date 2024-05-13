@@ -118,21 +118,6 @@ En este taller, abordaremos Abstracción, Herencia y Polimorfismo.
 - Dada esta comprensión de la herencia, donde adaptamos métodos comunes para atender a las particularidades de cada subclase, nos encontramos perfectamente posicionados para explorar el concepto de polimorfismo. Este principio nos permite que un mismo método se manifieste de diferentes maneras en distintas clases, aprovechando la estructura de herencia para especializar su comportamiento de acuerdo con las necesidades específicas de cada entidad. Veamos la diferencia de ambos metodos
 
 ```javascript
-let tiempoGestacionLeon = 2.891e10; // Equivalente a 11 meses
-let tiempoGestacionElefante = 5.782e10; // Equivalente a 22 meses
-
-// Metodo darLuz León
-function darLuz() {
-  setTimeout(() => console.log("Nace un leon"), tiempoGestacionLeon);
-}
-
-// metodo darLuz Elefante
-const darLuz = () => {
-  setTimeout(function () {
-    console.log("Nace un elefante");
-  }, tiempoGestacionElefante);
-};
-```
 
 Como puedes observar, aunque ambos métodos tienen el mismo nombre y cumplen funciones similares en términos generales, difieren en cómo se implementan
 
@@ -185,7 +170,7 @@ En esta sección, diseñaran dos sistemas usando los tres principios de la Progr
             - Atributos: nombre, menuQR
             - Métodos: agregarPlato(), actualizarPlato()
 
-        - RestauranteFisico:
+        - RestauranteFisico:  
             - Atributos: nombre, dirección, menuFisico
             - Métodos: agregarPlato(), actualizarPlato(), eliminarPlato()
 
@@ -197,7 +182,7 @@ En esta sección, diseñaran dos sistemas usando los tres principios de la Progr
             - Atributos: nombre, precio, ingredientes
             - Métodos: obtenerInfo()
 
-        - MenuQR
+        - MenuQR  
             - Atributos: plato, URL.
             - Métodos: generarQR()
 

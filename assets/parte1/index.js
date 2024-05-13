@@ -39,8 +39,6 @@
 //   console.log(`Hola me llamo ${this.name}`)
 // }
 
-
-
 // Funcion constructora donde asignamos los metodos al prototipo, 
 // no ah la funcion como tal 
 function Animal(name, genre) {
